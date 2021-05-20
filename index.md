@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -20,7 +19,7 @@
   <div id="wrapper">
       <section>
 
-            <img class="myimage" src="myself"/>
+            <img class="myimage" src="Pics/myself.jpg"/>
             <br>
             <p>
             This is a test.
