@@ -7,7 +7,7 @@ a {
  }
 
 img {
-max-width: 100%;
+max-width: 50%;
 
 }
 
@@ -19,7 +19,7 @@ max-width: 100%;
 
 
  #wrapper {
-   max-width: 940px;
+   max-width: 1170px;
    margin: 0 auto;
    padding: 0 5%;
 
@@ -28,7 +28,7 @@ max-width: 100%;
 
 
  a {
-   color: #000000;
+   color: blue;
 
  }
 
