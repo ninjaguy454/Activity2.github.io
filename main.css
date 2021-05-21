@@ -42,7 +42,7 @@ HEADING
 **************************************/
 
 header {
-  float: left;
+  float: center;
   margin: 0 0 20px 0;
   padding: 2px 0 0 0;
   width: 100%;
@@ -64,7 +64,7 @@ header {
  font-weight: normal;
  line-height: 0.5;
  text-align: center;
- color: 	#FF0000;
+ color: 	#000000;
 
  }
 
