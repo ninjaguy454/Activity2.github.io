@@ -13,7 +13,7 @@ max-width: 50%;
 
  body {
    font-family: 'Open Sans', sans-serif;
-   background-image:url("background.jpg") fixed center;
+   background-image:url("Pics/background.jpg") fixed center;
    background-attachment: fixed;
  }
 .container {
