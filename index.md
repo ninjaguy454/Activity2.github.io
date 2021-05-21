@@ -1,200 +1,49 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
 
-/*************************************
-GENERAL
-**************************************/
-a {
- text-decoration: none;
- }
+        <title>Duane Severson</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link href="main.css" rel="stylesheet" type="text/css" media="screen,projection" >
+		<img class="background" src="Pics/background.jpg"/>
+    </head>
+<body>
 
-img {
-max-width: 50%;
+<br>
+<br>
 
-}
+<h1>Duane Severson</h1>
 
- body {
-   font-family: 'Open Sans', sans-serif;
-   background-image:url("Pics/background.jpg") fixed center;
-   background-attachment: fixed;
- }
-.container {
-	background: inherit;
-}
- .container:before	{
-	 content: '';
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 bottom: 0;
-	 box-shadow: inset 0 0 2000px rgba(255,255,255, .5);
-	 filter: blur(10px);
-	 background: inherit;
- }
+<br>
+<br>
+  <div id="wrapper">
+      <section>
 
+            <img class="myimage" src="Pics/myself.jpg"/>
+            <br>
+            <p>
+            This is still a test.
+            </p>
+            <br>
+            <br>
+            <hr>
+            <hr>
 
- #wrapper {
-   max-width: 1170px;
-   margin: 0 auto;
-   padding: 0 5%;
-
- }
+            <p>
+            This is a sample site to demonstrate HTML and CSS skills. These skills are critical to developing
+            your web applications
+            </p>
 
 
 
- a {
-   color: blue;
-
- }
-
- h3 {
-     margin: 0 0 1em 0;
- }
-
-
-/*************************************
-HEADING
-**************************************/
-
-header {
-  float: center;
-  margin: 0 0 20px 0;
-  padding: 2px 0 0 0;
-  width: 100%;
-
-}
-
-
-
-#logo {
-   text-align: center;
-   margin: 0;
-
- }
-
- h1  {
- font-family: 'Segoe UI', sans-serif;
- font-size: 1.75em;
- font-weight: normal;
- line-height: 0.5;
- text-align: center;
- color: 	#000000;
-
- }
-
- h2  {
-
-
- font-size: 1.00em;
- font-weight: normal;
- margin: -5px 0 0;
- }
-
-
-h3  {
-
-
-    font-size: 1.1em;
-    font-weight: 700;
-    margin: 15px 0 0;
-}
+      </section>
+  </div>
 
 
 
 
 
 
-
-/*************************************
-NAVIGATION
-**************************************/
- nav {
-	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
-  }
-
-  nav ul  {
-    list-style: none;
-	margin: 0 10px;
-	padding: 0;
-}
-
-nav li {
-  display: inline-block;
-
-}
-
-
-
-/*************************************
-FOOTER
-**************************************/
- footer {
- font-size: 0.75em;
- text-align: center;
- clear: both;
- padding-top: 50px;
- color: #ccc;
- }
-
-/*************************************
-PAGE:
-**************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
-
-.myself {
-    float:left;
-    width:175px;
-    height:175px;
-    margin:20px;
-    border-radius: 20px;
-}
-
-
-
-
- /*************************************
-PAGE: ABOUT
-**************************************/
-.profile-photo {
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 30px;
-    border-radius: 5px;
-}
-
-/*************************************
-COLORS
-**************************************/
-
-
- /* green header*/
-  header {
-   background: #99cccc;
-   border-color: #99cccc;
- }
-
- /* logo text*/
-
- h1,h2  {
-    color: #363b74;
-}
-
-/* nav background on mobile devices*/
-nav {
-   background: #599a6b;
-}
-
-nav a, nav a:visited {
-	color: #fff;
-}
-
-/* selected nav link color*/
-nav a.selected, nav a:hover {
-  color: #99CCCC;
-}
-/* site body*/
-body {
-    background-color: #fff;
-    color: #000;
-}
+</body>
+</html>
