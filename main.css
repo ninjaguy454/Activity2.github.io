@@ -156,14 +156,14 @@ COLORS
 
  /* green header*/
   header {
-   background: #6ab47b;
-   border-color: #599a68;
+   background: #99cccc;
+   border-color: #99cccc;
  }
 
  /* logo text*/
 
  h1,h2  {
-    color: #32673f;
+    color: #363b74;
 }
 
 /* nav background on mobile devices*/
@@ -177,7 +177,7 @@ nav a, nav a:visited {
 
 /* selected nav link color*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #99CCCC;
 }
 /* site body*/
 body {
