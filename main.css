@@ -17,14 +17,13 @@ max-width: 100%;
 
  body {
    font-family: 'Open Sans', sans-serif;
-   background-image:url("Pics/background.jpg") fixed center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
- }
+    }
 
  div{
-	 background: inherit;
+	 background-image:url("Pics/background.jpg") fixed center;
+	 background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
 	 width: 250px;
 	 height: 350px
 	 position: absolute;
