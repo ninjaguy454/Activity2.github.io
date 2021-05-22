@@ -37,7 +37,6 @@ background-image:before{
  }
 
  body {
-	 background-color: light blue;
    font-family: 'Open Sans', sans-serif;
     }
 
@@ -200,6 +199,6 @@ nav a.selected, nav a:hover {
 }
 /* site body*/
 body {
-    background-color: #fff;
+	 background-color: light blue;
     color: #000;
 }
