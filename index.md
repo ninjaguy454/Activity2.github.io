@@ -2,50 +2,52 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>Duane Severson</title>
+        <title id="name">Duane Severson</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link href="style.css" rel="stylesheet" type="text/css" media="screen,projection" >
     </head>
 <body>
 
-<div id="background">
-</div>
-
-<br>
 <br>
 
-<h1>Duane Severson</h1>
+<h1 class="header">Duane Severson
 
 <br>
-<br>
+<nav id="link">
+<a href="https://">My Children!</a></nav>
+
+</h1>
+
+
   <div id="wrapper">
-      <section>
 
-            <img class="myimage" src="Pics/myself.jpg"/>
-            <br>
-            <p>
-            Although I have struggled, I'd like to believe I am slowly regaining my HTML coding skills back.
-            </p>
+			<div class="pic">
+            <img class="myimage" src="Pics/myself.jpg"/></div>
+			
             <br>
             <br>
-            <hr>
-            <hr>
 
-            <p>
-            This is a sample site to demonstrate HTML and CSS skills. These skills are critical to developing
-            your web applications
-            </p>
-
-
-
-      </section>
-  </div>
-
-
-
-
-
+			<div id="descleft">
+			<h2 id="left">About me!</h2>
+			<p> Hello there, my name is Duane Severson and I'm a full-time student, full-time QAQC Coordinator at the
+			PNB datacenter and full-time proud father of 2 girls and 1 boy who's arriving in July. Although I certainly am
+			a bit anxious about taking these summer courses, I feel fairly confident I can power through them.</p></div>
+		
+			<div id="Descright">
+			<h2 id="right">About this site!</h2>
+			<p>Through much trial and error it seems as though I've managed to recollect my 
+			HTML and CSS coding abilities and cobble together a humble landing page! I'll have you know, getting 
+			glazed ice simulated for the background held me up for quite a while. Perhaps not the best idea to get 
+			ambitious when you barely remember the material ahaha! Well, thanks for reading! Feel free to check out the link to my second page below my name </p></div>
+ 
 
 </body>
+
+<footer>
+		<small>This webpage was developed for ISQA3900 at the University of Nebraska Omaha and was created with
+		the educational intentions only.
+		</small>
+</footer>
+
 </html>
