@@ -25,7 +25,7 @@
             <img class="myimage" src="Pics/myself.jpg"/>
             <br>
             <p>
-            This is still a test.
+            Although I have struggled, I'd like to believe I am slowly regaining my HTML coding skills back.
             </p>
             <br>
             <br>

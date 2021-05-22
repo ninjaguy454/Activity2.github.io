@@ -14,7 +14,7 @@ max-width: 100%;
 	margin: 0;
 	padding: 0;
 }
-background-image{
+.background{
 	background-image:url("Pics/woodbkgrd.jpg") fixed center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,7 +24,7 @@ background-image{
 	position: absolute;
  }
  
-background-image:before{
+.background:before{
  	content: "";
 	background: inherit;
 	position: absolute;
@@ -199,6 +199,5 @@ nav a.selected, nav a:hover {
 }
 /* site body*/
 body {
-	 background-color: lightblue;
     color: #000;
 }
