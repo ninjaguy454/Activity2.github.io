@@ -201,10 +201,7 @@ background-size: cover;
  }
  
 #thegirls	{
-	background-image: url("Pics/background.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	background-color: #E9FDFD;
 }
  
 /*The wrapper inherits the background and I honestly dont remember what it does with it. I may not even need this, but to be honest I'm too scared to remove it at this point.*/
