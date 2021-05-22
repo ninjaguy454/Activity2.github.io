@@ -41,6 +41,9 @@ NAVIGATION
 	margin: 20px 0 0;
   }
 
+  #link2	{
+	  color:Black;
+  }
 /*************************************
 FOOTER
 **************************************/
@@ -56,7 +59,7 @@ position:relative;
  }
 
 /*************************************
-PROFILE IMAGE
+Pictures
 **************************************/
 /*Section to help me easily refer to that picture of me for ease of access*/
 .pic{
@@ -69,13 +72,25 @@ PROFILE IMAGE
 
 }
 
+.kids	{
+	position:relative;
+	width:50%;
+	max-width:500px;
+	margin:auto;
+	text-align:justify;
+}
+	
 /*Makes a nice circle around me instead of a square. I feel like FB uses this trick for messenger.*/
-.myimage {
+.myimage	{
 	max-width:275px;
     border-radius:50%;
-
 }
 
+.girls{
+	max-width:500px;
+	border-radius:20px;
+	
+}
 /*************************************
 TEXT
 **************************************/
@@ -86,6 +101,15 @@ TEXT
 	color:#969696;
 	position:relative;
 	z-index:1;
+	font-family: Segoe UI, sans-serif;
+	font-size:42;
+	text-decoration:underline;
+	text-align:center;
+}
+
+.header2{
+	color:#ff0080;
+	position:relative;
 	font-family: Segoe UI, sans-serif;
 	font-size:42;
 	text-decoration:underline;
@@ -130,6 +154,15 @@ TEXT
 	padding-right:5%
 }
 
+#childdesc{
+	color:#ff0080;
+	text-align:center;
+}
+
+#kidpar{
+	padding-right:5%;
+	padding-left:5%;
+}
 /*This is an artifact of a forgotten tool I ended up scrapping. Relish in its glory.
  #Description {
 	 position:relative;
@@ -145,12 +178,12 @@ TEXT
 
 /*This is yours. I dont think I even edited this, but it just works so well, it felt wrong to.*/
 nav a, nav a:visited {
-	color:#fff;
+	color:#ff4500;
 }
 
 /*I did change the color here though. If I can remove the <nav> and just use anchors I'm sure that would probably cut some code out here.*/
 nav a.selected, nav a:hover {
-  color:7193ff;
+  color:#7193ff;
 }
 
 /*************************************
@@ -160,12 +193,19 @@ BACKGROUND
 But the important thing is... I figure dout how to do it at all and relearned a lot along the way!*/
 
 /*This sets the background for the body to some nice, warm, lumber.*/
-body {
+#homepage {
 background-image: url("Pics/woodbkgrd.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
  }
+ 
+#thegirls	{
+	background-image: url("Pics/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
  
 /*The wrapper inherits the background and I honestly dont remember what it does with it. I may not even need this, but to be honest I'm too scared to remove it at this point.*/
 #wrapper{
@@ -188,4 +228,7 @@ resembles the tutorials anyway. I thought the effect I made oiut of it came out 
 	box-shadow: inset .1em .1em rgba(10,10,10,0.3);
 	filter: blur(5px);
 }
-
+#wrap{
+	content:"";
+	position: absolute;
+}
