@@ -8,7 +8,7 @@
         <link href="main.css" rel="stylesheet" type="text/css" media="screen,projection" >
     </head>
 <body>
-
+background-color: light blue;
 <div id="background">
 </div>
 
