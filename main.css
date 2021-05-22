@@ -14,7 +14,7 @@ max-width: 100%;
 	margin: 0;
 	padding: 0;
 }
-.background{
+background-image{
 	background-image:url("Pics/woodbkgrd.jpg") fixed center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,7 +24,7 @@ max-width: 100%;
 	position: absolute;
  }
  
-.background:before{
+background-image:before{
  	content: "";
 	background: inherit;
 	position: absolute;
