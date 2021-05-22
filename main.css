@@ -14,33 +14,31 @@ max-width: 100%;
 	margin: 0;
 	padding: 0;
 }
+.background{
+	background-image:url("Pics/woodbkgrd.jpg") fixed center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 250px;
+	height: 350px
+	position: absolute;
+ }
+ 
+.background:before{
+ 	content: "";
+	background: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 2000px rgba(255,255,255, .3);
+	filter: blur(10px);
+ }
 
  body {
    font-family: 'Open Sans', sans-serif;
     }
-
- div{
-	 background-image:url("Pics/background.jpg") fixed center;
-	 background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-	 width: 250px;
-	 height: 350px
-	 position: absolute;
- }
- 
- div:before{
- 	 content: "";
-	 background: inherit;
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 bottom: 0;
-	 box-shadow: inset 0 0 2000px rgba(255,255,255, .3);
-	 filter: blur(10px);
- }
-
 
  #wrapper {
    max-width: 1170px;
@@ -150,7 +148,6 @@ FOOTER
 /*************************************
 PAGE:
 **************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
 
 .myself {
     float:left;

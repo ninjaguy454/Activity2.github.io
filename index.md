@@ -8,7 +8,7 @@
         <link href="main.css" rel="stylesheet" type="text/css" media="screen,projection" >
     </head>
 <body>
-<div></div>
+<div id="background"></div>
 <br>
 <br>
 
