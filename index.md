@@ -8,7 +8,9 @@
         <link href="main.css" rel="stylesheet" type="text/css" media="screen,projection" >
     </head>
 <body>
-<div id="background"></div>
+<div>
+<img class="background" src="Pics/woodbkgrd.jpg"/>
+</div>
 <br>
 <br>
 
