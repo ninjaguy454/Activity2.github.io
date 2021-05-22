@@ -1,0 +1,191 @@
+
+/*************************************
+GENERAL
+**************************************/.container css browser support site:caniuse.com
+/*As you may be aware, I tried to just repurpose the template from the sample as much as I could, although 
+I don't think there isn't an ounce of code that hasn't been changed or removed in some way.
+
+This section was dedication towards just simplifying some classes. If there were more than 1 that shared the 
+same attributes and had no specific purpose (at leas tin my head.) they went here.*/
+ body {
+   font-family: 'Open Sans', sans-serif;
+   text-align:center;
+	padding: 0 28px;
+	width: 960px;
+   margin: auto;
+   display:flex;
+ }
+ 
+#wrapper{
+	justify-content:left;
+	align-items:left;
+}
+
+h2{
+	color:#ccc;
+	position:relative;
+	font-family: Segoe UI, sans-serif;
+	font-size:24;
+	text-decoration:underline;
+}
+
+
+
+/*************************************
+NAVIGATION
+**************************************/
+/*The humble navigation hub has certianly been downsized to serve me single link transporting the user between 2 sites. Hurrah!*/
+ nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+  }
+
+/*************************************
+FOOTER
+**************************************/
+/*Also slightly modified, and then I think I may have actually changed it back to default settings...*/
+ footer {
+position:relative;
+ font-size: 0.75em;
+ vertical-align:bottom;
+ text-align: center;
+ margin:5%;
+ clear: both;
+ color: #ccc;
+ }
+
+/*************************************
+PROFILE IMAGE
+**************************************/
+/*Section to help me easily refer to that picture of me for ease of access*/
+.pic{
+	position:relative;
+	z-index:1;
+	max-width:275px;
+	width:50%;
+	margin:auto;
+	text-align:justify;
+
+}
+
+/*Makes a nice circle around me instead of a square. I feel like FB uses this trick for messenger.*/
+.myimage {
+	max-width:275px;
+    border-radius:50%;
+
+}
+
+/*************************************
+TEXT
+**************************************/
+/*One of the longer sections. I am fairly certain I just wrote this all from scratch.*/
+
+/*Prints DUANE SEVERSON in big letters. I like the way Segoe Looks personally.*/
+.header{
+	color:#969696;
+	position:relative;
+	z-index:1;
+	font-family: Segoe UI, sans-serif;
+	font-size:42;
+	text-decoration:underline;
+	text-align:center;
+}
+
+/*aligns the first header to the left. This can probably be simplified in "General"*/	
+#left{
+	text-align:left;
+	padding-right:25%;
+	padding-left:5%
+	
+}
+
+/*aligns the following paragraph beneath the first paragraph. These can certainly be simplified, but again I'm very tired. :)*/
+#descleft{
+	color:#ccc;
+	position:relative;
+	font-family: Segoe UI, sans-serif;
+	font-size:12;
+	text-align:left;
+	padding-right:25%;
+	padding-left:5%;
+}
+
+/*Aligns the second paragraph header to the right of the screen.*/
+#right{
+	text-align:right;
+	padding-left:25%;
+	padding-right:5%
+	
+}
+
+/*Aligns the following paragraph beneath the header.*/
+#descright{
+	color:#ccc;
+	position:relative;
+	font-family: Segoe UI, sans-serif;
+	font-size:12;
+	text-align:right;
+	padding-left:25%;
+	padding-right:5%
+}
+
+/*This is an artifact of a forgotten tool I ended up scrapping. Relish in its glory.
+ #Description {
+	 position:relative;
+    color: white;
+	z-index: 1;
+}
+*/
+
+/*Literally just changes the URL size to link since I think I stored it under h1. If I know what I do is janky, does that still count against me for my grade?*/
+#link{
+	font-size:12;
+}
+
+/*This is yours. I dont think I even edited this, but it just works so well, it felt wrong to.*/
+nav a, nav a:visited {
+	color:#fff;
+}
+
+/*I did change the color here though. If I can remove the <nav> and just use anchors I'm sure that would probably cut some code out here.*/
+nav a.selected, nav a:hover {
+  color:7193ff;
+}
+
+/*************************************
+BACKGROUND
+**************************************/
+/*I forgot what this was originally, but I think I spent a couple dozen hours to get the glazed ice background, and I'm fairly certain it isn't even well optimized.
+But the important thing is... I figure dout how to do it at all and relearned a lot along the way!*/
+
+/*This sets the background for the body to some nice, warm, lumber.*/
+body {
+background-image: url("Pics/woodbkgrd.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+ }
+ 
+/*The wrapper inherits the background and I honestly dont remember what it does with it. I may not even need this, but to be honest I'm too scared to remove it at this point.*/
+#wrapper{
+ background: inherit;
+ width: 100%;
+ position: static;
+ bottom: 0px;
+}
+
+/*Here's the magic. I used the power of the WWW, but I think I mostly ended up taking the ideas and customizing it to my liking... I'm not even sure how closely it actually
+resembles the tutorials anyway. I thought the effect I made oiut of it came out pretty slick though.*/
+#wrapper:before{
+ 	content: "";
+	background: inherit;
+	position: absolute;
+	top: 25px;
+	left: -70px;
+	right: 0;
+	bottom: 250px;
+	box-shadow: inset .1em .1em rgba(10,10,10,0.3);
+	filter: blur(5px);
+}
+
