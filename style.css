@@ -176,10 +176,10 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #99CCCC;
 }
+
 /* site body*/
 body {
-    color: #000;
-	background-image:url("Pics/woodbkgrd.jpg") fixed center;
+    background-image:url("Pics/woodbkgrd.jpg") fixed center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
